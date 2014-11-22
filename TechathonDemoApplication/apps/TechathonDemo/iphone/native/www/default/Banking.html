@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
+<script src="js/MQA.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<script src="js/Mobile.js"></script>
+</head>
+<body>
+<script src="js/main.js"></script>
+<div data-role="page" id="page">
+  	<div data-role="header" id="gradient2">
+		<table width="100%"><tr><td valign="center" align="right" width="56%"> Banking</td><td  align="right" width="44%"><a href="Login.html"><img src="images/Lock.png" style="float:right; margin:0;
+					padding: 0px;"></img></a></td></tr></table>
+    			</div>			
+
+<div data-role="main" class="ui-content">
+   <!-- First Grid -->
+   <div class="ui-grid-b">
+      <div class="ui-block-a">
+        <a href="javascript:loadPage('Account Balances.html');fetchAccountList();"><img src="images/Accounts.jpg"/></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="#"><img src="images/Pay_Bills.jpg"/></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="javascript:loadPage('Fund Transfer.html');populateAccountListForFundsTransfer();"><img src="images/Transfer_Funds.jpg"/></a>
+      </div>
+    </div>
+    <!-- Second Grid -->
+    <div class="ui-grid-b">
+      <div class="ui-block-a"> 
+        <a href="#"><img src="images/Interac_e-Transfers.jpg"/></a>
+      </div>
+      <div class="ui-block-b">
+        <a href="#"><img src="images/Upcoming_Payments.jpg"/></a>
+      </div>
+      <div class="ui-block-c">
+        <a href="#"><img src="images/Manage_Payees.jpg"/></a>
+      </div>
+    </div>
+    <!-- Third Grid -->
+    <div class="ui-grid-b">
+      <div class="ui-block-a"">
+        <a href="#"><img src="images/Payment_History.jpg"/></a>
+      </div>
+      <div class="ui-block-b">
+      </div>
+      <div class="ui-block-c">
+      </div>
+    </div>
+  </div>
+  <table  id="buttonTable"  width="100%">
+	<!-- <tr><td height="150px"> </td></tr> -->
+	<tr>
+		<td width="50%"><span class="ui-mini"><a data-role="button" class="actionButton" style="font-style: Arial;color: white">Get Help</a></span></td>
+		<td width="50%"><span class="ui-mini"><a href="#"  data-role="button"  class="actionButton ui-mini" style="font-style: Arial;color: white">Legal</a></span></td>
+	</tr>
+	</table>
+</div>
+
+</body>
+</html>

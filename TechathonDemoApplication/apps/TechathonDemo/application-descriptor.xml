@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Licensed Materials - Property of IBM
+			 5725-I43 (C) Copyright IBM Corp. 2006, 2013. All Rights Reserved.
+			 US Government Users Restricted Rights - Use, duplication or
+             disclosure restricted by GSA ADP Schedule Contract with IBM Corp. --><!-- Attribute "id" must be identical to application folder name --><application xmlns="http://www.worklight.com/application-descriptor" id="TechathonDemo" platformVersion="6.2.0.01.20141027-1531">
+    <displayName>TechathonDemo</displayName>
+    <description>TechathonDemo</description>
+    <author>
+        <name>Gourabmoy Ghosh</name>
+        <email>GourabmoyGhosh@in.ibm.com</email>
+        <homepage>http://mycompany.com</homepage>
+        <copyright>IBM</copyright>
+    </author>
+    <mainFile>Mobile Demo Home.html</mainFile>
+    <features/>
+    <thumbnailImage>common/images/thumbnail.jpg</thumbnailImage>
+    <iphone bundleId="com.TechathonDemo" version="1.0">
+        <worklightSettings include="false"/>
+        <security>
+            <encryptWebResources enabled="false"/>
+            <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
+        </security>
+    </iphone>
+    <android version="1.0">
+        <worklightSettings include="false"/>
+        <security>
+            <encryptWebResources enabled="false"/>
+            <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
+            <publicSigningKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCsgZx/kSLSsFyLmJ66JSFlfRIrOobswjQh7vgVDvkDX1xA+HTpauibLHTiukbps9MrzHGoCSNwvncS/1FWXABGxOHklEoN1vvxMvL5AukWwgUmbbkW42kls7oWsZNglF5wxX4IN7zSQbXA8I1rgSm5MMs6Ccjo2eSI/F38W+ixIwIDAQAB</publicSigningKey>
+            <packageName>com.TechathonDemo</packageName>
+        </security>
+    </android>
+</application>

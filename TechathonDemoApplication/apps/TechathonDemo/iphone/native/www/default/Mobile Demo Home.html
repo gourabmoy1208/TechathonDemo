@@ -1,0 +1,89 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Demo Mobile Home</title>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="images/favicon.jpg" rel="shortcut icon">
+        <link href="images/apple-touch-icon.jpg" rel="apple-touch-icon">
+        <link href="jqueryMobile/jquery.mobile-1.4.2.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		 WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "TechathonDemo",
+   "APP_ID": "TechathonDemo",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "iphone",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "557946958",
+   "WORKLIGHT_PLATFORM_VERSION": "6.2.0.01.20141027-1531",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/TechathonDemo\/iphone\/"
+};
+</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script src="js/MQA.js" type="text/javascript"></script>
+    		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script src="jqueryMobile/jquery.mobile-1.4.2.js"></script>
+    		<script src="js/Mobile.js"></script>
+    </head>
+    <body> 
+        <script src="js/main.js"></script>  
+        <div data-role="page" id="page" style="background-color: #FFDEAD">
+            <div data-role="header" data-theme="d" id="gradient2">
+                <table style="padding-top: -10px;padding-left: -10px;padding-right: -10px;padding-bottom: -10px;" width="100%">
+                    <TBODY>
+                        <tr>
+                            <td align="right" valign="center"> FNB</td><td align="right" style="float:right;" width="100%"><img src="images/Lock.png" style="float:right; margin:0;
+					padding: 0px;"></td>
+                        </tr>
+                    </TBODY>
+                </table>
+            </div>
+            <div width="100%">
+                <ul data-inset="true" data-role="listview" style="padding-bottom: 4px; padding-left: 8px;padding-right: 8px;padding-top: 8px">
+                    <li>
+                        <a class="ui-li-icon ui-nodisc-icon" href="javascript:loadPage('Login.html');"><img class="ui-li-icon" src="images/BankingIcon.jpg">Mobile Banking</a>
+                    </li>
+                    <li>
+                        <a class="ui-li-icon ui-nodisc-icon" href="#"><img class="ui-li-icon" src="images/DirectInvestingIcon.jpg">Investments</a>
+                    </li>
+                    <li>
+                        <a class="ui-li-icon ui-nodisc-icon" href="#"><img class="ui-li-icon" src="images/DominionSecuritiesIcon.jpg">Dominion Securities</a>
+                    </li>
+                </ul>
+                <ul data-inset="true" data-role="listview" style="padding-bottom: 4px; padding-left: 8px;padding-right: 8px;padding-top: 4px">
+                    <li>
+                        <a class="ui-li-icon ui-nodisc-icon" href="#"><img class="ui-li-icon ui-nodisc-icon" src="images/FindALocationIcon.jpg"> ATM Locator</a>
+                    </li>
+                    <li>
+                        <a class="ui-li-icon ui-nodisc-icon" href="#"><img class="ui-li-icon ui-nodisc-icon" src="images/ContactUsIcon.jpg">Contact Us</a>
+                    </li>
+                </ul>
+                <ul data-inset="true" data-role="listview" style="padding-bottom: 8px; padding-left: 8px;padding-right: 8px;padding-top: 4px">
+                    <li>
+                        <a class="ui-li-icon ui-nodisc-icon" href="#"><img class="ui-li-icon ui-nodisc-icon" src="images/RatesAndToolsIcon.jpg">24*7 Customer Support</a>
+                    </li>
+                </ul>
+                <table width="100%">
+                    <TBODY>
+                        <tr>
+                            <td align="center" valign="top"><img src="images/Demo Credit Card.jpg"></td>
+                        </tr>
+                    </TBODY>
+                </table>
+            </div>
+        </div>
+        <script src="js/initOptions.js"></script>
+    		<script src="js/messages.js"></script>
+    </body>
+</html>

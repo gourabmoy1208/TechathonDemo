@@ -1,0 +1,143 @@
+
+/* Stylesheet content from css/main.css in folder common */
+h1
+{
+	color:white;
+}
+
+#toolbarGradient
+{
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #2E3192),
+	color-stop(0.34, #1C1E58)
+);
+background-image: -o-linear-gradient(bottom, #2E3192 0%, #1C1E58 34%);
+background-image: -moz-linear-gradient(bottom, #2E3192 0%, #1C1E58 34%);
+background-image: -webkit-linear-gradient(bottom, #2E3192 0%, #1C1E58 34%);
+background-image: -ms-linear-gradient(bottom, #2E3192 0%, #1C1E58 34%);
+background-image: linear-gradient(to bottom, #2E3192 0%, #1C1E58 34%);
+font-family: "Calibri";
+}
+
+#gradient1
+{
+	position: relative; 
+	color:white;font-family: Helvetica, Arial, sans-serif;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.32, #283654),
+	color-stop(0.6, #42558A)
+);
+background-image: -webkit-linear-gradient(bottom, #283654 32%, #42558A 60%);
+background-image: -o-linear-gradient(bottom, #283654 32%, #42558A 60%);
+background-image: -moz-linear-gradient(bottom, #283654 32%, #42558A 60%);
+
+background-image: -ms-linear-gradient(bottom, #283654 32%, #42558A 60%);
+background-image: linear-gradient(to bottom, #283654 32%, #42558A 60%);
+}
+#gradient2
+{ position: relative; background-color: #263780;
+	color:white;font-family: Helvetica, Arial, sans-serif;
+	background: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.32, #283654),
+	color-stop(0.6, #42558A)
+);
+
+background: -o-linear-gradient(bottom, #D2691E 32%, #8B0000 60%);
+background: -moz-linear-gradient(bottom, #D2691E 32%,#8B0000 60%);
+background: -webkit-linear-gradient(bottom, #D2691E 32%,#8B0000 60%);
+background: -ms-linear-gradient(bottom, #D2691E 32%,   #8B0000 60%);
+background: linear-gradient(to bottom,   #8B0000 ,   #D2691E 60%);
+}
+
+.button{
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.43, #D2691E),
+	color-stop(0.61, #D2691E)
+);
+
+background: -o-linear-gradient(bottom, #D2691E 32%, #8B0000 60%);
+background: -moz-linear-gradient(bottom, #D2691E 32%,#8B0000 60%);
+background: -webkit-linear-gradient(bottom, #D2691E 32%,#8B0000 60%);
+background: -ms-linear-gradient(bottom, #D2691E 32%,   #8B0000 60%);
+background: linear-gradient(to bottom,   #8B0000 ,   #D2691E 60%);
+}
+
+.button, buttonText{
+color:white;
+font-family: "Calibri";
+}
+
+.actionButton {
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #263780),
+	color-stop(0.5, #0F183B),
+	color-stop(1, #41539A)
+);
+
+background: -o-linear-gradient(bottom, #D2691E 32%, #8B0000 60%);
+background: -moz-linear-gradient(bottom, #D2691E 32%,#8B0000 60%);
+background: -webkit-linear-gradient(bottom, #D2691E 32%,#8B0000 60%);
+background: -ms-linear-gradient(bottom, #D2691E 32%,   #8B0000 60%);
+background: linear-gradient(to bottom,   #8B0000 ,   #D2691E 60%);
+	
+	
+}
+
+.selectText{
+{
+font-weight:normal;color:#000000;letter-spacing:0pt;word-spacing:1pt;font-size:12px;text-align:left;font-family:tahoma, verdana, arial, sans-serif;line-height:1;margin:0px;padding:0px;
+}
+
+.ui-icon-accounts {
+	background-image: url("images/Accounts.jpg");
+	background-size: 18px 18px;
+}
+
+.ui-icon-payBills {
+	background-image: url("images/Pay Bills.jpg");
+	background-size: 18px 18px;
+}
+
+.ui-icon-transferFunds {
+	background-image: url("images/Transfer Funds.jpg");
+	background-size: 18px 18px;
+}
+
+.ui-icon-interacETransfer {
+	background-image: url("images/Interac e-Transfers.jpg");
+	background-size: 18px 18px;
+}
+
+.ui-icon-upcomingPayments {
+	background-image: url("images/Upcoming Payments.jpg");
+	background-size: 18px 18px;
+}
+
+.ui-icon-managePayees {
+	background-image: url("images/Manage Payees.jpg");
+	background-size: 18px 18px;
+}
+
+.ui-icon-paymentHistory {
+	background-image: url("images/Payment History.jpg");
+	background-size: 18px 18px;
+}
+/* Stylesheet content from css/main.css in folder android */
+
+/* this CSS file extends the application CSS file found under common\css */
+

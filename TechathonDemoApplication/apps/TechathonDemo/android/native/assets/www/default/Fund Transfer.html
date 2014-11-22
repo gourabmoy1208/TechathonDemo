@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Fund Transfer</title>
+ <link rel="stylesheet" href="jqueryMobile/jquery.mobile-1.4.2.css" />
+    <script src="jqueryMobile/jquery.mobile-1.4.2.js"></script>
+   <script src="script.js"></script>
+   <script src="js/Mobile.js"></script>
+  <link rel="stylesheet" href="runnable.css" />
+  <link rel="stylesheet" href="css/main.css" />
+<script>
+alert("Fund Transfer");
+$(document).bind("pageinit", function() {
+	alert("Hello");                                
+</script>
+<script>
+		</script>
+
+
+</head>
+<body>
+
+	<div data-role="page" id="page" data-add-back-btn="true" style="background-color: #FAA460">
+		<div data-role="header" id="gradient2">
+			<table width="100%">
+				<tr widht="100%">
+					<td  width="6%" align="left"><a href="javascript:loadPage('Banking.html');"
+						class="ui-icon-back ui-btn-icon-left" ></a></td>
+					<td width="59%" valign="middle" align="center" nowrap="nowrap"  style="font-color: white"  >Fund Transfer</td>
+					<td width="19%" align="center" ><img src="images/Lock.png" style="float:right; margin:0;
+					padding: 0px;"></img></td>
+					<td width="6%"><a href="javascript:loadPage('Banking.html');"
+						class="ui-icon-home ui-btn-icon-right" ></a></td>
+				</tr>
+			</table>
+  	</div>
+			
+			<div data-role="content" width="100%" id="fundTransferInputBody">
+				<div class="ui-grid-solo">
+					<div class="ui-block-a">
+						<fieldset class="ui-field-contain ui-mini">
+						From: <select id="fromDropDown" class="selectText">
+						</select>
+						</fieldset>
+						<br />
+						<fieldset class="ui-field-contain ui-mini">
+						 To: <select id="toDropDown" class="selectText">
+						</select>
+						</fieldset>
+						 <br />
+						 <fieldset class="ui-mini">
+						Amount: <input type="text" id="amount" name="amount">
+						</fieldset>
+						<br/>
+						 <br /> 
+		
+			<div width="100%" colspan="1" nowrap>
+				<span class="ui-mini"><a data-role="button" href="javascript:loadPage('Confirm Fund Transfer.html');transferFunds();" class="actionButton" style="color: white;" >Submit</a></span></div>
+					<!-- <a
+							href="Confirm Fund Transfer.html"><img
+							src="images/right_arrow.jpg" /></a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+</body>
+</html>

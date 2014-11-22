@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Account Balances</title>
+<script src="jqueryMobile/jquery.mobile-1.4.2.js"></script>
+<script src="js/Mobile.js"></script>
+<link href="jqueryMobile/jquery.mobile-1.4.2.css" rel="stylesheet">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<body>
+	<div data-role="page" id="accountBalancesPage" data-add-back-btn="true" style="position: relative; background-color: #FFDEAD;">
+  	<div data-role="header" id="gradient2">
+			<table width="100%">
+				<tr width="100%">
+					<td  width="6%" align="left"><a href="javascript:loadPage('Banking.html');"
+						class="ui-icon-back ui-btn-icon-left"></a></td>
+					<td width="56%" valign="middle" align="center" style="font-color: white">Account Balance</td>
+					<td width="13%" align="center"><img src="images/Lock.png" style="float:right; margin:0;
+					padding: 0px;"></img></td>
+					<td width="14%"><a href="javascript:loadPage('Banking.html');"
+						class="ui-icon-home ui-btn-icon-right"></a></td>
+				</tr>
+			</table>
+  	</div>
+  				
+  	
+	<div data-role="content" id="accountBalanceContent">
+		<ul data-role="listview" id="accountBalancesList" data-inset="true">
+    	</ul>
+	</div>
+	</div>
+	
+	<!-- <div data-role="page" id="accountDetailsPage">
+	
+	   <div data-role="content" class="ui-content">
+	    <div id="accountDetailsContent"></div>
+	  </div>
+	
+	  <div data-role="footer">
+	    <h1>Footer Text</h1>
+	  </div>
+	</div> -->
+	
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Confirm Fund Transfer</title>
+<script src="jqueryMobile/jquery.mobile-1.4.2.js"></script>
+<link href="jqueryMobile/jquery.mobile-1.4.2.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css" />
+<script src="js/Mobile.js"></script>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+</head>
+<body>
+
+<div data-role="page" id="fundTransferConfirmationPage" style="position: relative; background-color: #FFDEAD">
+		
+		<div data-role="header" id="gradient2">
+			<table width="100%">
+				<tr widht="100%">
+					<td  width="6%" align="left"><a href="javascript:loadPage('Fund Transfer.html');"
+						class="ui-icon-back ui-btn-icon-left"></a></td>
+					<td width="59%" valign="middle" align="left" nowrap="nowrap" style="font-color: white">Confirm Fund Transfer</td>
+					<td width="19%" align="center"><img src="images/Lock.png"
+						></td>
+					<td width="6%"><a href="javascript:loadPage('Banking.html');"
+						class="ui-icon-home ui-btn-icon-right" ></a></td>
+				</tr>
+			</table>
+  	</div>
+		<div data-role="content" id="fundTransferConfirmationContent">
+		
+    	
+    	<div id="buttonTableDiv">
+    	<table width="100%" class="ui-responsive" id="buttonTable" >
+		<tr>
+			<td colspan="1" nowrap>
+			 <span class="ui-mini"><a data-role="button" class="actionButton" href="javascript:submitFundTransferRequest();" style="color: white; font-style: Helvatica,Arial,Sans-Serif" >Confirm</a> 
+			</td>
+		</tr>
+	</table>
+	</div>
+    	<br/>
+	</div>
+
+</div>
+
+</body>
+</html>
