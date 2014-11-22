@@ -65,7 +65,7 @@ MQA.warn();
 MQA.error();
 
 MQA.feedback();
-MQA.bug();
+//MQA.bug();
 
 MQA.isReady();
 MQA.isSetUp();
